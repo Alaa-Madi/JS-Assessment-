@@ -1,0 +1,59 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #006400; /* Dark Green */
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #004d00; /* Darker Green */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    width: 80%;
+    max-width: 400px;
+}
+
+h1 {
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+
+#message-el {
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+#cards-el, #sum-el {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding: 8px 0;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #c5b358; /* Darker Goldenrod */
+}
+
+#player-el {
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
